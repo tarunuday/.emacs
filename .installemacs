@@ -1,0 +1,6 @@
+cd ~/.emacs.d
+rm -rf .git*
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt update
+sudo apt install emacs25-nox
